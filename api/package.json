@@ -1,0 +1,21 @@
+{
+  "name": "sandblog",
+  "version": "1.0.0",
+  "description": "demo blog to use for learning automated api testing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "demo",
+    "test",
+    "api"
+  ],
+  "author": "Justin McClellan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3"
+  }
+}
