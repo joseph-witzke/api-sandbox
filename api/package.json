@@ -1,5 +1,5 @@
 {
-  "name": "sandblog",
+  "name": "api-sandbox",
   "version": "1.0.0",
   "description": "demo blog to use for learning automated api testing",
   "main": "app.js",
