@@ -4,7 +4,8 @@
   "description": "demo blog to use for learning automated api testing",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "keywords": [
     "demo",
@@ -14,8 +15,10 @@
   "author": "Justin McClellan",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.3",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
     "mysql": "^2.18.1",
-    "mysql2": "^2.3.3"
+    "path": "^0.12.7"
   }
 }
