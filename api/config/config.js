@@ -24,6 +24,7 @@ function checkConfig() {
     } else {
         activeConfig = JSON.parse(fs.readFileSync(defaultFile));
         console.log('Config file does not exist, loading: ', defaultFile);
+        console.log('Please use default.json as a template to create config.json with your own setting parameters to connect to your database.');
     }
 }
 
