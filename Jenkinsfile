@@ -3,9 +3,22 @@ pipeline {
     tools { nodejs "Default" }
 
     stages {
-        stage('Example') {
+        stage('Build') {
             steps {
+                echo 'Building...'
                 sh 'npm config ls'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                echo 'Testing...'
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                echo 'Deploying...'
             }
         }
     }
