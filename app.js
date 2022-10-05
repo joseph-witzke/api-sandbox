@@ -51,6 +51,13 @@ if (process.argv[2]) {
     port = config.app.port;
 }
 //
+if (process.env.PORT) { 
+    truePort = process.env.PORT;
+} else { 
+    truePort = port;
+}
+
+
 
 // create listener and output ready message to console
 /* original
@@ -59,7 +66,7 @@ app.listen(port, () => {
 
 // modified for heroku
 app.listen(process.env.PORT, () => {
-    console.log("API is ready to rock on port " + port);
+    console.log("API is ready to rock on port " + Trueport);
 });
 
 // Homepage
