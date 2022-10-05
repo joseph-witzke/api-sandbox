@@ -66,7 +66,7 @@ app.listen(port, () => {
 
 // modified for heroku
 app.listen(process.env.PORT, () => {
-    console.log("API is ready to rock on port " + Trueport);
+    console.log("API is ready to rock on port " + truePort);
 });
 
 // Homepage
