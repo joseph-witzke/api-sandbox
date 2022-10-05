@@ -2,7 +2,6 @@ CREATE TABLE `comments` (
 	`commentID` INT(10) NOT NULL AUTO_INCREMENT,
 	PRIMARY KEY (`commentID`) USING BTREE
 )
-COLLATE='utf8mb4_0900_ai_ci'
 ENGINE=InnoDB
 ;
 
@@ -15,7 +14,6 @@ CREATE TABLE `posts` (
 	`deleted` TINYINT(3) NOT NULL DEFAULT '0',
 	PRIMARY KEY (`postID`) USING BTREE
 )
-COLLATE='utf8mb4_0900_ai_ci'
 ENGINE=InnoDB
 ;
 
@@ -28,6 +26,5 @@ CREATE TABLE `users` (
 	`active` TINYINT(3) NULL DEFAULT NULL,
 	PRIMARY KEY (`userID`) USING BTREE
 )
-COLLATE='utf8mb4_0900_ai_ci'
 ENGINE=InnoDB
 ;
