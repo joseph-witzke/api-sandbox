@@ -44,14 +44,21 @@ const db = mysql.createConnection({
 
 // grab port as argument from commandline, else default to port in config file
 // note to self, add checking to ensure argv[2] is numeric in valid port range
+/* temporarily disabled for heroku port binding
 if (process.argv[2]) {
     port = process.argv[2];
 } else {
     port = config.app.port;
 }
+*/
 
 // create listener and output ready message to console
+/* original
 app.listen(port, () => {
+*/
+
+// modified for heroku
+app.listen(process.env.PORT, () => {
     console.log("API is ready to rock on port " + port);
 });
 
