@@ -64,6 +64,6 @@ app.listen(process.env.PORT || port, () => {
 
 // Homepage
 app.get('/', function (request, response) {
-    response.sendFile(path.resolve(__dirname,'../html') + '/index.html');
+    response.sendFile(path.resolve(__dirname,'html') + '/index.html');
 })
 
