@@ -37,7 +37,7 @@ system.get('/errortest/:errcode', function (request, response) {
 /* crashes nodemon
 system.get('/shutdown', (request, response) => {
     console.log("Shutting down API cleanly.");
-    process.exit(1);
+    process.exit();
 })
 */
 
