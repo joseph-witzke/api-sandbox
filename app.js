@@ -50,7 +50,7 @@ if (process.argv[2]) {
 } else {
     port = config.app.port;
 }
-//
+// make the port heroku-friendly
 if (process.env.PORT) { 
     truePort = process.env.PORT;
 } else { 
