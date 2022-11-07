@@ -1,2 +1,13 @@
-"# api-sandbox" 
-under api/config default.json is just a template.  Create config.json and fill in actual values for the database you set up
+1. Create Github and Authentication Github -- SSH. 
+2. Create Heroku
+3. Installing Jenkins
+4. Installing mabl Jenkins plugin
+5. Node
+6. NPM 
+7. 
+
+V1
+
+V2
+
+V3
