@@ -1,0 +1,13 @@
+1) install and initial set up jenkins (or use a docker image)
+2) install jenkins plugins: mabl, github
+3) create freestyle project
+4)
+
+(unordered, sort into list)
+within freestyle project:
+set project URL as github
+create repos for both github and heroku in project
+set up credentials for each. use access tokens, not passwords, as passwords are no longer supported
+set up heroku access in CLI for the jenkins user as needed (enables shell commands to work)
+set up build action: execute shell (include script later)
+set up build action: mabl tests

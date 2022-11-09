@@ -1,0 +1,8 @@
+1) create heroku account
+2) install heroku CLI
+3) 
+
+(unordered, put these in list)
+set up access token
+init repo
+add heroku as remote in git config
