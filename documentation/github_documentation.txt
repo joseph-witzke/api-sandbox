@@ -1,0 +1,7 @@
+1) create account on github.com
+2) set up personal access token
+3) create ssh key, add public key to github account
+4) install git CLI
+5) set up cli ssh-agent and ssh-add private key to it (this enables you to use ssh as git auth)
+6) set up git global config with user.name and user.email
+7) clone existing repo or init new repo (need code to be pushed through pipeline process)
