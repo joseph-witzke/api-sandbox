@@ -74,3 +74,6 @@ app.get('/', function (request, response) {
     response.sendFile(path.resolve(__dirname,'html') + '/index.html');
 })
 
+app.get('/favico.ico', (req, res) => {
+    res.sendFile("favicon.ico");
+});
