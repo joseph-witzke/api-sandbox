@@ -58,3 +58,5 @@
 
 **Do you anticipate working on stretch functionality after completion of a Minimal Viable Product?**
 - As outlined above, this project will be broken down into variouse versions -- V1, V2, etc. The future of the project will also be shaped by the needs and feedback of our users.  
+
+Adds note to Readme 
